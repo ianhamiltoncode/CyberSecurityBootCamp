@@ -108,5 +108,4 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include all the intended vm IP addresses
 - Run the playbook, and navigate to kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 The playbook files are the ones that end with -playbook.yml and you can update the hosts file to make ansible run the playbook on a specific machine. You have to visit http://[VM.IP]:5601/app/kibana in order to see if the instalation was successful 
